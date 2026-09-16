@@ -5,38 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sewer Unblocked Games</title>
     <style>
-        /* Base page layout mimicking a dark underground sewer */
         body { 
             background-color: #0d110e; 
-            color: #39ff14; /* Slime Green Text */
+            color: #39ff14; /* Slime Green */
             font-family: 'Courier New', Courier, monospace; 
             text-align: center; 
             margin: 0;
             padding: 20px;
         }
-
         h1 {
             font-size: 3rem;
             text-shadow: 0 0 10px #39ff14, 0 0 20px #228b22;
-            margin-bottom: 5px;
         }
-
-        .subtitle {
-            color: #888;
-            font-style: italic;
-            margin-bottom: 40px;
-        }
-
-        /* Container for the game grid */
-        .arcade-grid { 
-            display: flex; 
-            justify-content: center; 
-            flex-wrap: wrap;
-            gap: 25px; 
-            margin-top: 30px; 
-        }
-
-        /* Game card buttons styled like rusty metal panels */
+        .subtitle { color: #888; font-style: italic; margin-bottom: 40px; }
+        .arcade-grid { display: flex; justify-content: center; flex-wrap: wrap; gap: 25px; margin-top: 30px; }
         .game-card { 
             border: 3px solid #2b3a2a; 
             padding: 25px; 
@@ -46,17 +28,12 @@
             color: #39ff14; 
             font-weight: bold; 
             font-size: 1.2rem;
-            min-width: 150px;
-            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8);
             transition: all 0.3s ease;
         }
-
-        /* Hover effect making the buttons leak neon light */
         .game-card:hover { 
             border-color: #39ff14; 
             background: #1c261c; 
             box-shadow: 0 0 15px #39ff14;
-            transform: translateY(-3px);
         }
     </style>
 </head>
@@ -66,7 +43,9 @@
     <div class="subtitle">// Accessing the underground arcade pipeline...</div>
 
     <div class="arcade-grid">
-        <!-- Add your game buttons down here -->
- <a class="game-card" href="game1.html">🟢 Play Slope 3D</a>
+        <!-- This button points directly to your separate game page -->
+        <a class="game-card" href="game1.html">🟢 Play Slope 3D</a>
+    </div>
 
-        <a class="game-card" href="game2.html">🕹️ Game 2</a>
+</body>
+</html>
